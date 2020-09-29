@@ -17,3 +17,26 @@ nav {
 a {
   color: white;
 }
+
+article {
+  padding: 20px 50px;
+}
+
+h2 {
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+p {
+  font-family: verdana;
+  font-size: 15px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-family: verdana;
+  font-size: 15px;
+  padding: 30px;
+}
