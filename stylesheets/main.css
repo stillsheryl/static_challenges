@@ -4,16 +4,16 @@
 
 header {
   background-color: rgb(159, 0, 12);
-  padding: 30px;
+  padding: 25px;
   font-size: 26px;
-  font-family: verdana;
+  font-family: verdana, arial;
   font-weight: bold;
   color: white;
 }
 
 nav {
   background-color: rgb(45, 45, 45);
-  padding: 18px;
+  padding: 20px;
   font-size: 23px;
   font-family: verdana;
   text-align: right;
