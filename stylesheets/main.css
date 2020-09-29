@@ -1,0 +1,19 @@
+header {
+  background-color: rgb(159, 0, 12);
+  padding: 30px;
+  font-size: 26px;
+  font-family: verdana;
+  font-weight: bold;
+  color: white;
+}
+
+nav {
+  float: right;
+  width: 5%;
+  font-size: 15px;
+  color: white;
+}
+
+a {
+  color: white;
+}
