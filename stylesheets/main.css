@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 header {
   background-color: rgb(159, 0, 12);
   padding: 30px;
@@ -8,24 +12,59 @@ header {
 }
 
 nav {
-  float: right;
-  width: 5%;
-  font-size: 15px;
+  background-color: rgb(45, 45, 45);
+  padding: 18px;
+  font-size: 23px;
+  font-family: verdana;
+  text-align: right;
   color: white;
+  word-spacing: 10px;
 }
 
 a {
   color: white;
 }
 
+img {
+  padding: 5px;
+}
+
 article {
-  padding: 20px 50px;
+  width: 75%;
+  background-color: white;
+  padding: 20px 40px;
+}
+
+aside {
+  float: right;
+  padding: 20px;
+  width: 25%;
+  background-color: white;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 500px) {
+  aside, article {
+    width: 100%;
+    height: auto;
+  }
 }
 
 h2 {
   font-family: verdana;
   font-weight: bold;
   font-size: 20px;
+}
+
+h3 {
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 p {
